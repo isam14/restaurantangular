@@ -9,9 +9,12 @@
     <mat-toolbar color="primary">Menu</mat-toolbar>
     <mat-nav-list>
       <a mat-list-item routerLink ="/">Accueil</a>
+      <a mat-list-item routerLink ="/login">Login</a>
+
       <a mat-list-item routerLink ="/carte">La Carte</a>
       <a mat-list-item routerLink ="/reserve">Réserver</a>
       <a mat-list-item routerLink ="/contact">Contact</a>
+      <a mat-list-item routerLink ="/categories">Category</a>
 
     </mat-nav-list>
   </mat-sidenav>
@@ -26,10 +29,11 @@
         <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
       </button>
       <span>Restaurant Angular</span>
-
       
     </mat-toolbar>
     <!-- Add Content Here -->
+
+    
     
     <!-- *****c'est ici que s'affiche la vue du component**** -->
           <router-outlet></router-outlet> 

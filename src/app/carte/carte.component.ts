@@ -11,5 +11,4 @@ export class CarteComponent implements OnInit {
 
   ngOnInit() {
   }
-
 }
